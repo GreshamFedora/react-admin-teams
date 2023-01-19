@@ -12,6 +12,11 @@ main {
   text-align: center;
 }
 
+.card-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

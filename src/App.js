@@ -1,8 +1,9 @@
 import * as React from 'react';
-import Header from './components/Header'
-import Employees from './components/Employees'
-import Footer from './components/Footer'
-import { useState, useEffect } from 'react'
+import Header from './components/Header';
+import Employees from './components/Employees';
+import Footer from './components/Footer';
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   

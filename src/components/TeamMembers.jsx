@@ -3,7 +3,9 @@ import TeamMemberCard from './TeamMemberCard';
 const TeamMembers = ({employees, handleEmployeeCardClick, selectedTeam}) => {
     return(
         employees.map((employee) => (
-            <TeamMemberCard handleEmployeeCardClick={handleEmployeeCardClick} selectedTeam={selectedTeam}/>
+            <TeamMemberCard employee={employee} 
+                            handleEmployeeCardClick={handleEmployeeCardClick} 
+                            selectedTeam={selectedTeam}/>
         ))
     )
 }
